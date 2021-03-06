@@ -1,0 +1,35 @@
+Jenkins:
+What are servers:
+1) Power stays on all the time.
+2) Strong internet connection(in GBps) all the time.
+3)A lot of resources like Ram disk ect
+=================================================================
+1) Developers will develop the code
+2)Runs the unit tests if everything goes well ask the Developer person to build that
+ code and deploy the code on Dev servers
+3) Developer verifies that code on Dev server
+4) Request to Developer person to deploy it on the integration server
+5)Tester will ask Developer person to deploy the code QA server
+6)Tester may deploy it on the Performance server, Security testing servers
+7)Staging servers(replica of production server) UAT server on which UAT is performed.
+8)To production server
+Issues in the manual Testing/Deployment
+
+1)Time Consuming
+2) If multiple developers are working there can be issues in build and to fix those issues we may
+need to look all of the newly added code
+3)No automation means alot of manual effort
+How to build a simple job
+Login to the Jenkins
+http://jenkins.syntaxtechs.net/
+user name admin
+password admin
+click on new item
+give it a name
+click on free style project
+click on apply save
+scroll down to the page and click on build steps
+write echo " any message"
+click on
+
+

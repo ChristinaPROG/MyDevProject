@@ -1,0 +1,8 @@
+Jenkins:
+What are servers:
+1) Power stays on all the time.
+2) Strong internet connection(in GBps) all the time.
+3)A lot of resources like Ram disk ect
+=================================================================
+1) Developers will develop the code
+2)Runs the unit tests if everything goes well ask the Developer person to build that code
